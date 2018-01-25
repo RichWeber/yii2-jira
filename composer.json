@@ -1,0 +1,21 @@
+{
+    "name": "richweber/yii2-jira",
+    "description": "This is the reference for the Jira Cloud REST API. This API is the primary way to interact with Jira remotely, whether you are building an app, scripting interactions with Jira or developing any other integration. This page documents the REST resources available in Jira Cloud, along with expected HTTP response codes and sample requests.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "RichWeber",
+            "email": "r.bagatyi@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "richweber\\jira\\src\\": ""
+        }
+    }
+}
